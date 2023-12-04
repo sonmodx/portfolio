@@ -1,0 +1,29 @@
+.project {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.project .date {
+    font-size: 1rem;
+    flex-basis: 20%;
+}
+
+.project .content {
+    flex-basis: 100%;
+}
+
+.project .content {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.project .content .dev-langs {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    flex-wrap: wrap;
+    list-style: none;
+
+}

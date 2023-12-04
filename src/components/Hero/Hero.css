@@ -1,0 +1,75 @@
+.hero {
+    padding-block: var(--padding-block-container);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.hero .description {
+    margin-top: 1em;
+}
+
+.hero .navbar {
+    line-height: 2.1em;
+}
+
+.hero .navbar .menu-list {
+    list-style: none;
+}
+
+.hero .navbar .menu-list .list  {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.hero .navbar .menu-list .list a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.hero .navbar .menu-list .list a > .line {
+    --width: 2rem;
+    width: var(--width);
+    height: 3px;
+    background-color: black;
+    transition: 0.125s ease;
+    transform-origin: left;
+}
+
+.hero .navbar .menu-list .list a > .name-link {
+    margin-left: .5em;
+}
+
+.hero .navbar .menu-list .list a:is(:focus-visible, :hover) {
+    opacity: 1;
+}
+
+.hero .navbar .menu-list .list a:is(:focus-visible, :hover) > .line {
+    width: calc(var(--width) * 2);
+}
+
+.hero .contact-list {
+  margin-top: 1.2em;
+  margin-left: 1em;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1.2em;
+}
+
+.hero .contact-list .list a {
+  text-decoration: none;
+  color: black;
+  font-size: var(--thirdary-fs);
+}
+
+
+
+
+
+

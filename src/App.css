@@ -1,0 +1,82 @@
+:root {
+  --primary-fs: clamp(2rem, 2rem + 2vw, 4rem);
+  --secondary-fs: clamp(1.5rem, 1.5rem + 1vw, 3rem);
+  --thirdary-fs: clamp(1rem, 1rem + 1vw, 2rem);
+  --forth-fs: clmap(.8rem, .8rem + 1vw, 1.6rem);
+  --paragraph-fs: clamp(.5rem, .5rem + 1vw, 1.1rem);
+  --padding-block-container: 4rem;
+}
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: var(--primary-fs);
+}
+
+h2 {
+  font-size: var(--secondary-fs);
+}
+
+h3 {
+  font-size: var(--thirdary-fs);
+}
+
+h4 {
+  font-size: var(--forth-fs);
+}
+
+p {
+  line-height: 1.25em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.app {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: ghostwhite;
+  font-size: var(--paragraph-fs);
+}
+
+.app .container {
+  width: min(90%, 70rem);
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  position: relative;
+}
+
+.app .header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+}
+
+.app .main {
+  padding-block: var(--padding-block-container);
+}
+
+.app .main :is(.projects, .contact) {
+  margin-top: 2em;
+}
+
+.app .main .about .content > * {
+  margin-top: .8em;
+}
+
+.app .main .projects .group > * {
+  margin-top: 1.2em;
+}
+
+

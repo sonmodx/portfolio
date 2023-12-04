@@ -1,0 +1,49 @@
+[
+    {
+        "date": "Year 1 Semester 1",
+        "name": "SFML GAME",
+        "description": "This project was built by C++ language and used SFML that is library for simplify developing 2D game.",
+        "devLangs": ["C++", "SFML"],
+        "pictureLink": "https://drive.google.com/drive/folders/1NWlAQ3HMGitofpa5-ozAj76KaE3xLK0c?usp=drive_link"
+    },
+    {
+        "date": "Year 1 Semester 2",
+        "name": "Custom Notepad",
+        "description": "This project is written in the Java programming language using object-oriented programming (OOP) principles to create a stand-alone application and to gain a better understanding of OOP.",
+        "devLangs": ["Java"]
+    },
+    {
+        "date": "Year 2 Semester 2",
+        "name": "Food Delivery Web Application",
+        "description": "Developed a food delivery web application for ordering and receiving at canteen in university.The front-end was developed using React JS and developed a backend using ASP.NET Core MVC",
+        "devLangs": ["HTML","CSS","Javascript", "React JS","C#", "ASP.NET Core MVC"],
+        "pictureLink": "https://drive.google.com/drive/folders/1rWBJevt93sSBtkZV4q8nfTvewqz10vVP?usp=sharing" 
+    },
+    {
+        "date": "Year 2 Summer",
+        "name": "RUSH PROJECT | Web Profile",
+        "description": "This portfolio website was completed in one day at 42bangkok. Developed this web using HTML, CSS and JQuery and deployd by Github. This project provides the experience of working collaboratively with another developer",
+        "devLangs": ["HTML","CSS", "JQuery"],
+        "liveLink": "https://rush-dp.vercel.app/"
+    },
+    {
+        "date": "Year 3 Semester 1",
+        "name": "Username Web",
+        "description": "This project assigned as part of the Theory of Computing subject, required the implementation and deployment of the Username website using DFA (Deterministic Finite Automaton). The interactive platform challenges users to deduce the correct username through various states, with accompanying hints provided at each stage.",
+        "devLangs": ["HTML","CSS","Javascript"],
+        "liveLink": "https://toc-beta.vercel.app/"
+    },
+    {
+        "date": "Year 3 Semester 1",
+        "name": "CHIQKO Web Application",
+        "description": "This project was developed under the Scrum framework, with a single sprint timeline and a focus on selecting key features for a clothing store. The design inspiration was drawn from Uniqlo, and the frontend was developed using React, while the backend was implemented with Node.js. The database utilized for this project is MySQL.",
+        "devLangs": ["HTML","CSS", "Javascript","React JS", "SQLite","Node JS", "Express JS"]
+    },
+    {
+        "date": "Dec 2023",
+        "name": "Awesome To Do List",
+        "description":"This web application have four main features(Create, Read, Update, Delete).I developed this project to improve my backend development skills and in order to be full-stack devloper in future",
+        "devLangs": ["HTML","CSS", "Javascript","React JS", "MySQL","Node JS", "Express JS"]
+    }
+    
+]
