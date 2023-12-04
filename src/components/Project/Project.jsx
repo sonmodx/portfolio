@@ -8,6 +8,7 @@ const Project = ({
   description,
   devLangs,
   pictureLink,
+  githubLink,
   liveLink,
 }) => {
   return (
@@ -21,22 +22,32 @@ const Project = ({
             <DevLang key={idx} devLang={devLang} />
           ))}
         </ul>
-        {pictureLink && (
-          <div className="picture-link">
-            <a href={pictureLink} target="_blank">
-              View pictures
-              <i className="fa-solid fa-image"></i>
-            </a>
-          </div>
-        )}
-        {liveLink && (
-          <div className="live-link">
-            <a href={liveLink} target="_blank">
-              Live Link
-              <i className="icon-live-link fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-        )}
+        <div className="group-links">
+          {pictureLink && (
+            <div className="link">
+              <a href={pictureLink} target="_blank">
+                View pictures
+                <i className="fa-solid fa-image"></i>
+              </a>
+            </div>
+          )}
+          {githubLink && (
+            <div className="link">
+              <a href={githubLink} target="_blank">
+                View Code
+                <i className="icon fa-brands fa-github"></i>
+              </a>
+            </div>
+          )}
+          {liveLink && (
+            <div className="link">
+              <a href={liveLink} target="_blank">
+                Live Link
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@
         "name": "SFML GAME",
         "description": "This project was built by C++ language and used SFML that is library for simplify developing 2D game.",
         "devLangs": ["C++", "SFML"],
+        "githubLink":"https://github.com/sonmodx/SFML_Game",
         "pictureLink": "https://drive.google.com/drive/folders/1NWlAQ3HMGitofpa5-ozAj76KaE3xLK0c?usp=drive_link"
     },
     {
@@ -40,10 +41,21 @@
         "devLangs": ["HTML","CSS", "Javascript","React JS", "SQLite","Node JS", "Express JS"]
     },
     {
+        "date": "Aug 2023",
+        "name": "BNK48 Lucky Draw",
+        "description":"I developed a mobile application called BNK48 Lucky Draw for BNK48 fans. The application allows users to participate in a raffle by  writing a title, load background and banner, selecting the number of tickets, lucky numbers, and whether to display the lucky numbers. Users can also export the history of each round, and see an animation when clicking the draw button.",
+        "devLangs": ["HTML","CSS", "Javascript","React Native" ],
+        "githubLink": "https://github.com/sonmodx/BNK48-random-mobile-app",
+        "pictureLink": "https://drive.google.com/drive/folders/1eBYwWZ5NaUDn3GKpRJpizn4Ja2_iWzAx?usp=sharing"
+    },
+    {
         "date": "Dec 2023",
         "name": "Awesome To Do List",
-        "description":"This web application have four main features(Create, Read, Update, Delete).I developed this project to improve my backend development skills and in order to be full-stack devloper in future",
-        "devLangs": ["HTML","CSS", "Javascript","React JS", "MySQL","Node JS", "Express JS"]
+        "description":"This web application have four main features(Create, Read, Update and Delete).I developed this project in free time to improve my backend development skills and in order to be full-stack devloper in future",
+        "devLangs": ["HTML","CSS", "Javascript","React JS", "MySQL","Node JS", "Express JS"],
+        "githubLink": "https://github.com/sonmodx/Awesome-To-Do-List"
+        
     }
+    
     
 ]

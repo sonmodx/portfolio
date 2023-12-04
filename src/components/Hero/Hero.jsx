@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-const Hero = () => {
+const Hero = ({ isActive }) => {
   return (
     <div className="hero">
       <div className="group">
@@ -15,13 +15,13 @@ const Hero = () => {
       <nav className="navbar">
         <ul className="menu-list">
           <li className="list">
-            <a href="#about">
+            <a href="#about" className={isActive.about ? "active" : ""}>
               <div className="line"></div>
               <div className="name-link">About</div>
             </a>
           </li>
           <li className="list">
-            <a href="#projects">
+            <a href="#projects" className={isActive.projects ? "active" : ""}>
               <div className="line"></div>
               <div className="name-link">Projects</div>
             </a>

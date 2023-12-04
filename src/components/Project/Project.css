@@ -1,4 +1,5 @@
 .project {
+    margin-top: 2.5rem;
     display: flex;
     align-items: flex-start;
     gap: 2rem;
@@ -10,14 +11,13 @@
 }
 
 .project .content {
-    flex-basis: 100%;
-}
-
-.project .content {
     display: flex;
     flex-direction: column;
     gap: .5em;
+    flex-basis: 100%;
 }
+
+
 
 .project .content .dev-langs {
     display: flex;
@@ -25,5 +25,44 @@
     gap: .5em;
     flex-wrap: wrap;
     list-style: none;
+}
 
+.project .content .group-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.project .content .link {
+    margin-top: .35em;
+}
+
+.project .content .link a,
+.project .content .link a {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    width: fit-content;
+}
+
+.project .content .link a::after,
+.project .content .link a::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    height: 2.5px;
+    background-color: black;
+    z-index: 1;
+    transition: 0.225s ease;
+    transform-origin: left;
+}
+
+.project .content .link a:is(:hover, :focus-visible)::after,
+.project .content .link a:is(:hover, :focus-visible)::after {
+    transform: scaleX(1.1);
 }
