@@ -1,8 +1,8 @@
 .devLang {
     white-space: nowrap;
     border-radius: 1em;
-    background-color: black;
-    color: white;
+    background: var(--bg-tag-dev-lang-clr);
+    color: var(--text-tag-dev-lang-clr);
     padding: .25em 1em;
     font-size: smaller;
 }

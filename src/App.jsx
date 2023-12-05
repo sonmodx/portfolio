@@ -8,6 +8,7 @@ function App() {
   const aboutRef = useRef();
   const projectsRef = useRef();
   const [offset, setOffset] = useState(0);
+  const [isRainbowTheme, setIsRainbowTheme] = useState(false);
 
   useEffect(() => {
     const projectEleTop = projectsRef?.current.getBoundingClientRect().top;
@@ -27,7 +28,14 @@ function App() {
     return () => window.removeEventListener("scroll", onScroll);
   }, [offset]);
   return (
-    <div className="app">
+    <div className={`app ${isRainbowTheme ? "rainbow-mode" : ""}`}>
+      <div
+        className="toggle-theme"
+        onClick={() => setIsRainbowTheme((prev) => !prev)}
+      >
+        {!isRainbowTheme && <i class="fa-solid fa-rainbow"></i>}
+        {isRainbowTheme && <i className="light fa-solid fa-lightbulb"></i>}
+      </div>
       <div className="container">
         <header className="header">
           <Hero isActive={isActive} setIsActive={setIsActive} />
