@@ -55,6 +55,13 @@
         "devLangs": ["HTML","CSS", "Javascript","React JS", "MySQL","Node JS", "Express JS"],
         "githubLink": "https://github.com/sonmodx/Awesome-To-Do-List"
         
+    },
+    {
+        "date": "Apr 2024 - Oct 2024",
+        "name": "Infrastructure Service Management | KBTG",
+        "description":"Worked in the Asset Management team responsible for inventory management using automation tools to store detailed information about devices such as servers, routers, switches, firewalls, storage, and more. The project's ultimate goal is to achieve automated data storage with accurate, up-to-date information while enabling visibility of the relationships between devices.",
+        "devLangs": ["Javascript"]
+        
     }
     
     
