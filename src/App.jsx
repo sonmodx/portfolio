@@ -59,8 +59,9 @@ function App() {
               <p>
                 I experimented with various languages such as C, C++, Java,
                 Python, and eventually ended up working with JavaScript. I also
-                tried my hand at web development using HTML and CSS, discovering
-                that I love to code for web application.
+                explored web development using HTML and CSS, and later ventured
+                into mobile app development, discovering my passion for coding
+                both web and mobile applications.
               </p>
             </div>
           </section>

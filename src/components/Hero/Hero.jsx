@@ -5,10 +5,13 @@ const Hero = ({ isActive }) => {
     <div className="hero">
       <div className="group">
         <h1 className="name">Sattachon Homhual</h1>
-        <h2 className="role">Front-end Web Developer</h2>
+        <h2 className="role">Frontend Developer</h2>
         <p className="description">
-          I am currently studying at KMITL, in my third year, and looking for a
-          summer internship opportunity, in a front-end development position.
+          Hello! I'm a 4th-year student at KMITL, about to graduate, and I'm
+          seeking exciting opportunities in front-end development. I have a
+          strong passion for creating user-friendly interfaces and love to write
+          clean, efficient code. I'm eager to bring my skills and creativity to
+          a dynamic team. Let's connect!
         </p>
       </div>
 
