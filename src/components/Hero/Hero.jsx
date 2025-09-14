@@ -4,14 +4,13 @@ const Hero = ({ isActive }) => {
   return (
     <div className="hero">
       <div className="group">
-        <h1 className="name">Sattachon Homhual</h1>
-        <h2 className="role">Frontend Developer</h2>
+        <h1 className="name">
+          <span className="iam">I'm</span> Sattachon Homhual
+        </h1>
+        <h2 className="role">Full Stack Engineer</h2>
         <p className="description">
-          Hello! I'm a 4th-year student at KMITL, about to graduate, and I'm
-          seeking exciting opportunities in front-end development. I have a
-          strong passion for creating user-friendly interfaces and love to write
-          clean, efficient code. I'm eager to bring my skills and creativity to
-          a dynamic team. Let's connect!
+          I passionately learn and build things for the website and mobile
+          application. Welcome to my portfolio!
         </p>
       </div>
 

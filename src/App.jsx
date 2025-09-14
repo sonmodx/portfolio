@@ -45,23 +45,13 @@ function App() {
             <h3 className="title">ABOUT</h3>
             <div className="content">
               <p>
-                In the past, before entering university, I had no idea which
-                faculty to choose. However, I decided to study computer
-                engineering because I noticed it was trendy, and being someone
-                who enjoys staying updated on technology, it seemed like a good
-                fit.
-              </p>
-              <p>
-                In my first year, I learned both hardware and software, but I
-                found that I didn't particularly like hardware. But when I tried
-                coding, I felt a strong connection and enjoyed solving problems.
-              </p>
-              <p>
-                I experimented with various languages such as C, C++, Java,
-                Python, and eventually ended up working with JavaScript. I also
-                explored web development using HTML and CSS, and later ventured
-                into mobile app development, discovering my passion for coding
-                both web and mobile applications.
+                Hello! I'm a fresh graduate from KMITL, looking for
+                opportunities as a Full Stack Engineer. I have a solid
+                foundation in both front-end and back-end development, and I'm
+                passionate about building scalable, user-friendly applications.
+                I enjoy writing clean, efficient code and collaborating on
+                challenging projects. I'm eager to contribute my skills and grow
+                with a dynamic team. Let's connect!
               </p>
             </div>
           </section>

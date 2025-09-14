@@ -3,7 +3,7 @@ This code is provided for viewing only. Copying or reuse is prohibited without p
 
 # Porfolio Website
 
-This project was created as a resume for an internship in my third year in the position of front-end developer.
+This project was created as part of my portfolio to support my job search for a Full Stack Engineer position.
 
 ## Features
 
