@@ -1,6 +1,7 @@
 import React from "react";
 import DevLang from "./components/DevLang";
 import "./Project.css";
+import DOMPurify from "dompurify";
 
 const Project = ({
   date,
@@ -11,12 +12,16 @@ const Project = ({
   githubLink,
   liveLink,
 }) => {
+  const descriptionHTML = DOMPurify.sanitize(description);
   return (
     <div className="project">
       <div className="date">{date}</div>
       <div className="content">
         <h4 className="project-name">{name}</h4>
-        <p className="description">{description}</p>
+        <p
+          className="description"
+          dangerouslySetInnerHTML={{ __html: descriptionHTML }}
+        ></p>
         <ul className="dev-langs">
           {devLangs?.map((devLang, idx) => (
             <DevLang key={idx} devLang={devLang} />

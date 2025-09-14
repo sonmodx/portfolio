@@ -62,7 +62,11 @@
         "description":"Worked in the Asset Management team responsible for inventory management using automation tools to store detailed information about devices such as servers, routers, switches, firewalls, storage, and more. The project's ultimate goal is to achieve automated data storage with accurate, up-to-date information while enabling visibility of the relationships between devices.",
         "devLangs": ["Javascript"]
         
+    },
+    {
+        "date": "Apr 2025 - present",
+        "name": "Site Reliability Engineer (SRE) | CP Axtra -  Lotus's",
+        "description":"<ul><li>Took over responsibilities from vendor teams, focusing on the Buy & Merchandise systems.</li><li>Provided L2 support for incident management and L3 support for defect fixes and development tasks.</li><li>Drove system improvements, including building automation tasks to increase efficiency and reliability.</li><li>Collaborated on new projects, ensuring seamless integration and operational stability.</li>",
+        "devLangs": ["PowerShell Script", "Python", "Bash", "Oracle SQL", "Microsoft SQL Server"]
     }
-    
-    
 ]

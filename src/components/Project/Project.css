@@ -17,12 +17,18 @@
     flex-basis: 100%;
 }
 
+.project .content .description {
+    font-size: var(--paragraph-fs);
+ 
+}
+
 .project .content .dev-langs {
     display: flex;
     align-items: center;
     gap: .5em;
     flex-wrap: wrap;
     list-style: none;
+    margin-top: .75em;
 }
 
 .project .content .group-links {

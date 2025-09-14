@@ -2,7 +2,7 @@
   --primary-fs: clamp(2rem, 2rem + 2vw, 4rem);
   --secondary-fs: clamp(1.5rem, 1.5rem + 1vw, 3rem);
   --thirdary-fs: clamp(1rem, 1rem + 1vw, 2rem);
-  --forth-fs: clmap(.8rem, .8rem + 1vw, 1.6rem);
+  --forth-fs: clamp(.8rem, .8rem + 1vw, 1.6rem);
   --paragraph-fs: clamp(.5rem, .5rem + 1vw, 1.1rem);
   --padding-block-container: 4rem;
 

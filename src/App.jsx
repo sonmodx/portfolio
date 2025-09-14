@@ -33,7 +33,7 @@ function App() {
         className="toggle-theme"
         onClick={() => setIsRainbowTheme((prev) => !prev)}
       >
-        {!isRainbowTheme && <i class="fa-solid fa-rainbow"></i>}
+        {!isRainbowTheme && <i className="fa-solid fa-rainbow"></i>}
         {isRainbowTheme && <i className="light fa-solid fa-lightbulb"></i>}
       </div>
       <div className="container">
