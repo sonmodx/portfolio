@@ -41,8 +41,6 @@ Start the server\
 ## Screenshots
 <img width="1896" height="936" alt="portfolio-web-snapshot" src="https://github.com/user-attachments/assets/d61cb7b8-4951-48b2-b73b-16f192a18664" />
 
-![Screenshot 2023-12-05 174653](https://github.com/sonmodx/portfolio/assets/88366596/55054cff-fd31-41ae-a209-5c88cf3dc06e)
-
 ## Authors
 
 - [@sonmodx](https://www.github.com/sonmodx)
